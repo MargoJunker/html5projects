@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="da03b0d7-1a5d-46a5-9d97-37a0adad1b77" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <list id="ef3173f6-d914-4786-85da-3209dbbd52f2" name="1483636-109673298 TEST" comment="TEST&#10;[Delivers #109673298]" />
+    <list id="4d2e2c71-ac2e-4c99-b1a7-2fcb0f2d217d" name="1483636-109680228 Lecture 6: JavaScript Basics Part - A" comment="Lecture 6: JavaScript Basics Part - A&#10;[Delivers #109680228]" />
+    <list id="923b562d-a441-4765-98fc-fb8bf78b3138" name="1483636-109682760 Lecture 7: JavaScript Basics Part - B" comment="Lecture 7: JavaScript Basics Part - B&#10;[Delivers #109682760]" />
+    <list default="true" id="aac402ba-c5f2-400c-85e8-59dbf8518b9d" name="1483636-109683744 Lecture 8: HTML5 Page Structure Part - A" comment="Lecture 8: HTML5 Page Structure Part - A&#10;[Delivers #109683744]">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+    </list>
+    <ignored path="html5projects.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="html5projects" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33663365">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1483636-109683744" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1077" />
+    <option name="width" value="850" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="tasks.close.task.update.state.enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\html5projects\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Margo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <branch name="master" repository="C:\xampp\htdocs\html5projects" />
+      <changelist id="da03b0d7-1a5d-46a5-9d97-37a0adad1b77" name="Default" comment="" />
+      <created>1449528509071</created>
+      <option name="number" value="Default" />
+      <updated>1449536420111</updated>
+    </task>
+    <task id="1483636-109673298" summary="TEST">
+      <branch name="master" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109673298" repository="C:\xampp\htdocs\html5projects" />
+      <changelist id="ef3173f6-d914-4786-85da-3209dbbd52f2" name="1483636-109673298 TEST" comment="TEST&#10;[Delivers #109673298]" />
+      <created>1449529077302</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109673298" />
+      <option name="project" value="1483636" />
+      <updated>1449529798046</updated>
+    </task>
+    <task id="1483636-109674276" summary="Lecture 1: Course Introduction">
+      <branch name="1483636-109673298" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109674276" repository="C:\xampp\htdocs\html5projects" />
+      <created>1449529811424</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109674276" />
+      <option name="project" value="1483636" />
+      <updated>1449529928153</updated>
+    </task>
+    <task id="1483636-109674530" summary="Lecture 2: HTML5 Feature Overview">
+      <branch name="1483636-109674276" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109674530" repository="C:\xampp\htdocs\html5projects" />
+      <created>1449529942321</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109674530" />
+      <option name="project" value="1483636" />
+      <updated>1449530308096</updated>
+    </task>
+    <task id="1483636-109674896" summary="Lecture 3: Boiler Plate">
+      <branch name="1483636-109674276" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" />
+      <created>1449530920523</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109674896" />
+      <option name="project" value="1483636" />
+      <updated>1449531018815</updated>
+    </task>
+    <task id="1483636-109675714" summary="Lecture 4: CSS Styling Part - A">
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109675714" repository="C:\xampp\htdocs\html5projects" />
+      <created>1449532134740</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109675714" />
+      <option name="project" value="1483636" />
+      <updated>1449532533727</updated>
+    </task>
+    <task id="1483636-109677866" summary="Lecture 5: CSS Styling Part - B">
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109677866" repository="C:\xampp\htdocs\html5projects" />
+      <created>1449533332662</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109677866" />
+      <option name="project" value="1483636" />
+      <updated>1449533530188</updated>
+    </task>
+    <task id="1483636-109680228" summary="Lecture 6: JavaScript Basics Part - A">
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109680228" repository="C:\xampp\htdocs\html5projects" />
+      <changelist id="4d2e2c71-ac2e-4c99-b1a7-2fcb0f2d217d" name="1483636-109680228 Lecture 6: JavaScript Basics Part - A" comment="Lecture 6: JavaScript Basics Part - A&#10;[Delivers #109680228]" />
+      <created>1449534598439</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109680228" />
+      <option name="project" value="1483636" />
+      <updated>1449534978202</updated>
+    </task>
+    <task id="1483636-109682760" summary="Lecture 7: JavaScript Basics Part - B">
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109682760" repository="C:\xampp\htdocs\html5projects" />
+      <changelist id="923b562d-a441-4765-98fc-fb8bf78b3138" name="1483636-109682760 Lecture 7: JavaScript Basics Part - B" comment="Lecture 7: JavaScript Basics Part - B&#10;[Delivers #109682760]" />
+      <created>1449535409058</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109682760" />
+      <option name="project" value="1483636" />
+      <updated>1449536356964</updated>
+    </task>
+    <task active="true" id="1483636-109683744" summary="Lecture 8: HTML5 Page Structure Part - A">
+      <branch name="1483636-109674896" repository="C:\xampp\htdocs\html5projects" original="true" />
+      <branch name="1483636-109683744" repository="C:\xampp\htdocs\html5projects" />
+      <changelist id="aac402ba-c5f2-400c-85e8-59dbf8518b9d" name="1483636-109683744 Lecture 8: HTML5 Page Structure Part - A" comment="Lecture 8: HTML5 Page Structure Part - A&#10;[Delivers #109683744]" />
+      <created>1449581980728</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109683744" />
+      <option name="project" value="1483636" />
+      <updated>1449536914935</updated>
+    </task>
+    <task id="1483636-109684288" summary="Lecture 9: HTML5 Page Structure Part - B">
+      <created>1449581980728</created>
+      <option name="issue" value="true" />
+      <option name="number" value="109684288" />
+      <option name="project" value="1483636" />
+      <updated>1449536914904</updated>
+    </task>
+    <option name="clearContext" value="false" />
+    <option name="createChangelist" value="false" />
+    <option name="createBranch" value="false" />
+    <option name="mergeBranch" value="false" />
+    <servers>
+      <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
+        <option name="APIKey" value="95ffaaca4aad9237bb58933fd97349c3" />
+        <commitMessageFormat>{summary}
+[Delivers #{number}]</commitMessageFormat>
+        <password />
+        <option name="loginAnonymously" value="false" />
+        <option name="preferredCloseTaskState" />
+        <option name="preferredOpenTaskState">
+          <CustomTaskState id="IN_PROGRESS" predefined="true" name="In Progress" />
+        </option>
+        <option name="projectId" value="1483636" />
+        <option name="shouldFormatCommitMessage" value="true" />
+        <option name="useHttpAuthentication" value="false" />
+        <option name="useProxy" value="false" />
+        <username />
+      </PivotalTracker>
+    </servers>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1077" y="0" width="850" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47181627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <confirmRemoveEmptyChangelist value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019721577">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33663365">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
