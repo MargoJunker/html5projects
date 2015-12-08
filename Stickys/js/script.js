@@ -9,6 +9,10 @@ if (window.openDatabase) {
     alert("Failed to open database, make sure your browser supports HTML5 web storage");
 }
 
+var captured = null;
+var highestZ = 0;
+var highestID = 0;
+
 function Note(){
     var self = this;
     
@@ -38,7 +42,7 @@ function Note(){
     note.appendChild(edit);
     this.editField = edit;
     
-    vat ts = document.createElement('div');
+    var ts = document.createElement('div');
     ts.className = 'timestamp';
     ts.addEventListener('mousedown',function(e){
         return self.onMouseDown(e)
@@ -150,14 +154,57 @@ Note.prototype = {
     
     },
     
-    saveAsNew = function(){
+    saveAsNew: function(){
         this.timestamp = new Date.getTime();
         
         var note = this;
         db.transaction(function(tx){
-            tx.executeSql("INSERT INTO MyStickys ( id, note, timestamp, left, top ,zindex)");
+            tx.executeSql("INSERT INTO MyStickys ( id, note, timestamp, left, top ,zindex) VALUES (?, ?, ?, ?, ?, ?)",
+            [note.id, note.text, note.timestamp,note.left,note.top,note.zindex]);
+        });
+    },
     
-})
+    onMouseDown: function(e){
+        capture = this;
+        this.startX = e.clientX - this.note.offsetLeft;
+        this.startY = e.clientY - this.note.offsetRight;
+        this.zIndex = ++highestZ;
+        
+        var self = this;
+        if(!("mouseMoveHandler" in this)){
+            this.mouseMoveHandler = function(e){return self.onMouseMove(e)}
+            this.mouseUpHandler = function(e){return self.onMouseUp(e)}
+        }
+        
+        document.addEventListener("mousemove", this.mouseMoveHandler, true);
+        document.addEventListener("mouseup", this.mouseUpHandler, true);
+    },
+    
+        
+    onMouseMove: function(e){
+        if(this != captured){
+            return true;
+        }
+        this.left = e.clientX - this.startX + 'px';
+        this.top = e.clientY - this.startY + 'px';
+        return false;
+    },    
+    
+    on MouseUp = function(e){
+        document.removeEventListener("mousemove", this.mouseOverHandler, true);
+        document.removeEventListener("mouseup", this.mouseUpHandler, true);
+        
+        this.save();
+        return false;
+    },
+
+    onNoteClick: function(e){
+        this.editField.focus();
+        getSelection().collapseToEnd();
+    },
+        
+    onKeyUp(){
+        this.dirty= true;
+        this.saveSoon();
     }
-    
 }
