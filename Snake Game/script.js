@@ -8,8 +8,8 @@ $(document).ready(function () {
     var d;
     var food;
     var score;
-    var color = "green";
-    var speed = 50;
+    var color = "red";
+    var speed = 40;
     var tail;
 
     // Snake Array
