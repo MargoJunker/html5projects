@@ -100,7 +100,7 @@ $(document).ready(function () {
         ctx.strokeRect(x*cw,y*cw,cw,cw);
     }
     
-    // function
+    // Check Collison function
     function check_collision(x, y, array){
         for(var i = 0;i < array.length; i++){
             if (array[i.x == x && array[i].y == y])
@@ -108,4 +108,26 @@ $(document).ready(function () {
         }
         return false;
     }
+    
+    // Keyboard Controller
+    $(document).keydown(function(e){
+        var key = e.which;
+        if(key == "37" && d !="right") d="left";
+        else if(key == "38" && d !="down") d="up";
+        else if(key == "39" && d !="left") d="right";
+        else if(key == "40" && d !="up") d="down";
+    });
+    
+    
+    // Collision code
+        if (nx == -1 || nx == w / cw || ny == -1 || ny == h / cw || checkCollision(nx, ny, snake_array)) {
+            // init();
+
+            // Insert Final Score
+            $('#final_score').html(score);
+
+            // Show Overlay
+            $('#overlay').fadeIn(300);
+            return;
+        }
 });
