@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+   <div class="container">
+       <div id="overlay">
+           Your Final Score: <span id="final_score"></span>
+           <br>
+           <a onClick="window.location.reload()" href="#">Click to Play Again</a>
+       </div>
+       <canvas id="canvas" width="600" height="400">
+           Sorry, this browser does not support the canvas element.
+       </canvas>
+       <div id="score"></div>
+       <div id="high_score"></div>
+       <button onclick="resetScore()" id="reset_score">Reset High Score</button>
+   </div>
     
     <!-- Jquery -->
     <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
