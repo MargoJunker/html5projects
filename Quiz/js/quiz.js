@@ -20,46 +20,27 @@ $(document).ready(function(){
     // Show first question
     $('#q1').show();
     
-    $('#q1 #submit').click(function(){
+    $('.questionForm #submit').click(function(){
+        // Get data attributes
+        current = $(this).parents('form:first').data('question');
+        next = $(this).parents('form:first').data('question')+1;
+        // Hide all questions
         $('.questionForm').hide();
-        proccess('q1');
-        $('#q2').fadeIn(300);
-        return false;
-    });
-    
-    $('#q2 #submit').click(function(){
-        $('.questionForm').hide();
-        proccess('q2');
-        $('#q3').fadeIn(300);
-        return false;
-    });
-    
-    $('#q3 #submit').click(function(){
-        $('.questionForm').hide();
-        proccess('q3');
-        $('#q4').fadeIn(300);
-        return false;
-    });
-    
-    $('#q4 #submit').click(function(){
-        $('.questionForm').hide();
-        proccess('q4');
-        $('#q5').fadeIn(300);
-        return false;
-    });
-    
-    $('#q5 #submit').click(function(){
-        $('.questionForm').hide();
-        proccess('q5');
-        $('#result').fadeIn(300);
+        // Show next question
+        $('#q'+next+'').fadeIn(300);
+        process(''+current+'');
+        console.log(score);
         return false;
     });
     
 });
 
 // Process the answers
-
-function process(q){
+function process(n){
+    // Get input value
+    var submitted = $('input[name=q1]:checked').val();
+    
+    
     if(q == q1){
         var submitted = $('input[name=q1]:checked').val();
         if(submitted == sessionStorage.a1){
