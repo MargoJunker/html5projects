@@ -3,7 +3,7 @@ var audio;
 //Hide pause
 $('#pause').hide();
 
-initAudio('#playlist li:first-child');
+initAudio($('#playlist li:first-child'));
 
 function initAudio(element) {
     var song = element.attr('song');
@@ -45,6 +45,40 @@ $('#stop').click(function() {
     audio.pause();
     audio.currentTime = 0;
 });
+
+//Next Button
+$('#next').click(function() {
+    audio.pause();
+    var next = $('#playlist li.active').next();
+    if(next.length == 0) {
+        next = $('#playlist li:first-child');
+    }
+    initAudio(next);
+    audio.play();
+    showDuration();
+});
+
+//Prev Button
+$('#prev').click(function() {
+    audio.pause();
+    var prev = $('#playlist li.active').prev();
+    if(prev.length == 0) {
+        prev = $('#playlist li:first-child');
+    }
+    initAudio(prev);
+    audio.play();
+    showDuration();
+});
+
+//Playlist song click
+$('#playlist li').click(function() {
+    audio.pause();
+    initAudio($(this));
+    $('#play').hide();
+    $('#pause').show();
+    audio.play();
+    showDuration();
+})
 
 //Volume control
 $('#volume').change(function() {
