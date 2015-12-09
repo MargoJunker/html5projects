@@ -65,6 +65,9 @@ header h1{
     display: none;
 }
 
+#picbox .preview.done .uploaded{
+    display: block;
+}
 #picbox .progressHolder{
     position: absolute;
     background: #252f38;

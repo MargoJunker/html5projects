@@ -42,6 +42,7 @@ $(function () {
     
     var template = '<div class ="preview">' +
                         '<span class="imageHolder">' +
+                            '<span class="uploaded"></span>'+
                             '<img />' +
                         '</span>' +
                         '<div class="progressHolder">' +
