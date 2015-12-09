@@ -91,7 +91,6 @@ button#pause{
     background: url(../images/pause.png) no-repeat;
     float: left;
     margin-left: -2px;
-    display: none;
 }
 
 button#stop{
