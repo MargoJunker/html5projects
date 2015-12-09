@@ -12,6 +12,25 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>MobileToDO</h1>
+        </header>
+        
+        <main data-role="content" id="content">
+            <p><a href="#add" data-role="button">Add A ToDO</a></p>
+            <p><a href="index.html" id="clear_btn" data-role="button" data-theme="b">Clear All ToDOs</a></p>
+            <ul id="todos" data-role="listview" data-filter="true" data-filter-placeholder="Search ToDOs..." data-insert="true">
+                <li>Pick up kids from school</li>
+                <li>Meeting with boss</li>
+                <li>Dinner with wife</li>
+            </ul>
+        </main>
+        
+        <footer data-role="footer" id="footer">
+            <h4>MobileToDO &copy; 2015</h4>
+        </footer>
+    </div>
 </body>
 </html>
